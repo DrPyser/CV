@@ -23,7 +23,7 @@ Software engineer / programmer / developer based in Montreal, Quebec (Canada).
   - RESTful API design and implementation patterns
   - Web protocol design and principles: HTTP, Websocket, RPC(SOAP/XMLRPC/JSONRPC)
   - Synchronous & asynchronous concurrent programming: django channels, asyncio, websockets, http long-polling
-  - Relational databases(operation, management, interfacing, modeling, PostgreSQL, SQLite, SQLAlchemy)<i class="devicon-postgresql-plain colored"></i><i class="devicon-sqlalchemy-plain colored"></i><i class="devicon-sqlite-plain colored"></i>[!https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg]
+  - Relational databases(operation, management, interfacing, modeling, PostgreSQL, SQLite, SQLAlchemy)<i class="devicon-postgresql-plain colored"></i><i class="devicon-sqlalchemy-plain colored"></i><i class="devicon-sqlite-plain colored"></i>![https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg]
   - GraphQL
 - Domain-Driven Design(principles, vocabulary)
 - Search advertisement & SEO principles,
