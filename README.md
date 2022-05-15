@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <script src="https://kit.fontawesome.com/2693fce77c.js" crossorigin="anonymous"></script>
+
 ## Charles Langlois
 
 Software engineer / programmer / developer based in Montreal, Quebec (Canada).
