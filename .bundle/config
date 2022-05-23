@@ -1,0 +1,4 @@
+---
+BUNDLE_PATH: "vendor/bundle"
+BUNDLE_CACHE_ALL: "true"
+BUNDLE_FORCE_RUBY_PLATFORM: "true"
