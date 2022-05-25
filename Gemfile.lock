@@ -280,6 +280,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-seo-tag
   webrick
 
 BUNDLED WITH

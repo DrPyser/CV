@@ -13,18 +13,6 @@
         inherit system;
         overlays = [ devshell.overlay ];
       };
-      # rubyenv = pkgs.ruby;
-        #.withPackages (p: with p; [ jekyll ]);
-      # tools = [ pkgs.glow rubyenv pkgs.bundix ];
-      # bundlerenv = pkgs.bundlerEnv {
-      #   ruby = rubyenv;
-      #   name = "cv-github-pages";
-      #   gemdir = ./.;
-      # };
-      # rubyenv = (import ./shell.nix {
-      #   inherit self pkgs lib;
-      #   inputs = buildInputs;
-      # });
       rubyenv = pkgs.bundlerEnv {
           ruby = pkgs.ruby_3_1;
           name = "CV-bundler-env";
@@ -38,6 +26,12 @@
         bundix
         rubyenv
       ];
+      pandoc = pkgs.symlinkJoin {
+        name = "pandoc-cv";
+        paths = [pkgs.pandoc pkgs.texlive.combined.scheme-small pkgs.wkhtmltopdf pkgs.zathura ];
+        # prevent conflicts with existing packages in env
+        meta.priority = 10;
+      };
       in {
         packages = rec {
           inherit rubyenv;
@@ -59,21 +53,17 @@
         devShell =
           pkgs.devshell.mkShell {
             imports = [
-              # ./shell.nix
             ];
             packages = [
-              # (import ./shell.nix {
-              #   inherit self pkgs lib;
-              #   inputs = buildInputs;
-              # })
-
-              # bundlerenv
-              # bundlerenv.ruby
             ] ++ buildInputs;
             commands = [
               {
                 package = pkgs.glow;
                 help = "Render markdown files in terminal";
+              }
+              {
+                package = pandoc;
+                help = "convert markdown sources to other formats(e.g. pdf)";
               }
             ];
           };
