@@ -3,8 +3,10 @@
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
   inputs.devshell.url = "github:numtide/devshell";
+  inputs.nix-pandoc.url = "github:serokell/nix-pandoc";
+  inputs.nix-pandoc.inputs.nixpkgs.follows = "nixpkgs";
 
-  outputs = { self, flake-utils, devshell, nixpkgs }:
+  outputs = { self, flake-utils, devshell, nix-pandoc, nixpkgs }:
     let
       lib = nixpkgs.lib // flake-utils.lib // devshell.lib;
       supportedSystems = [ lib.system.x86_64-linux ];
@@ -22,9 +24,10 @@
         };
 
       buildInputs = with pkgs; [
-        glow
+        # glow
         bundix
         rubyenv
+        (lib.meta.lowPrio rubyenv.wrappedRuby)
       ];
       pandoc = pkgs.symlinkJoin {
         name = "pandoc-cv";
@@ -35,8 +38,17 @@
       in {
         packages = rec {
           inherit rubyenv;
-          assets = null;
-          pdf = null;
+          assets = pkgs.stdenv.mkDerivation {
+            inherit buildInputs;
+            name = "cv.charleslanglois.dev";
+            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildPhase = "jekyll build";
+          };
+          pdf = nix-pandoc.mkDoc.${system} {
+            name = "charles-langlois-cv";
+            src = ./.;
+            extraBuildInputs = [pkgs.wkhtmltopdf];
+          };
           default = self.packages.${system}.assets;
         };
         # test environments

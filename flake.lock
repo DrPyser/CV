@@ -49,6 +49,26 @@
         "type": "github"
       }
     },
+    "nix-pandoc": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1601644537,
+        "narHash": "sha256-i71ZLyJJh4Ey4fYFmEQURH4gqSFuIRRE3zuZW9Dak1A=",
+        "owner": "serokell",
+        "repo": "nix-pandoc",
+        "rev": "3d6336f2d8af706fcb53c4aacdd6c02fed624ac1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "serokell",
+        "repo": "nix-pandoc",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1643381941,
@@ -83,6 +103,7 @@
       "inputs": {
         "devshell": "devshell",
         "flake-utils": "flake-utils_2",
+        "nix-pandoc": "nix-pandoc",
         "nixpkgs": "nixpkgs_2"
       }
     }
