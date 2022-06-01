@@ -11,4 +11,5 @@ group :jekyll_plugins do
   # gem "jekyll-remote-theme"
   gem "jekyll-seo-tag"
   gem "webrick"
+  gem "jemoji"
 end
