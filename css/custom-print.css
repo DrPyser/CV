@@ -1,6 +1,65 @@
 @media print {
-  a::after {
-      content: " (" attr(href) ")";
-      color: "blue";
+  /* Setting content width, unsetting floats and margins */
+  /* Attention: the classes and IDs vary from theme to theme. Thus, set own classes here */
+  #content,#page {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+  /** Setting margins */
+  @page { margin: 2cm }
+  /* Or: */
+  @page :left {
+    margin: 1cm;
+  }
+  @page :right {
+    margin: 1cm;
+  }
+  /* The first page of a print can be manipulated as well */
+  @page :first {
+    margin: 1cm 2cm;
+  }
+
+  /* page breaks
+  */
+  blockquote {
+    page-break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after:avoid;
+    page-break-inside:avoid
+  }
+  img {
+    page-break-inside:avoid;
+    page-break-after:avoid;
+  }
+  table, pre { page-break-inside:avoid }
+  ul, ol, dl  { page-break-before:avoid }
+
+
+  /*
+  link rendering/behaviors
+  */
+  a:link, a:visited, a {
+    background: transparent;
+    color: #520;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+  }
+  a {
+    page-break-inside:avoid
+  }
+  a[href^=http]:after {
+    content:" < " attr(href) "> ";
+  }
+  $a:after > img {
+    content: "";
+  }
+  article a[href^="#"]:after {
+    content: "";
+  }
+  a:not(:local-link):after {
+    content:" < " attr(href) "> ";
   }
 }

@@ -75,6 +75,7 @@
               }
               {
                 package = pandoc;
+                name = "pandoc";
                 help = "convert markdown sources to other formats(e.g. pdf)";
               }
             ];

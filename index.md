@@ -4,9 +4,10 @@ subtitle: Curiculum Vitae
 ---
 {% capture plusicon %}<span class="iconify-inline" data-icon="akar-icons:plus"></span>{% endcapture %}
 
-|||
+
 |-:|:-|
-| Location :anchor: | Montreal, Quebec<span class="iconify-inline" data-icon="openmoji:quebec-flag"></span>|
+----
+| Location :anchor: | Montreal, Quebec<span class="iconify-inline" data-icon="openmoji:quebec-flag"></span> |
 | Email :e-mail:   | <contact@charleslanglois.dev>              |
 | LinkedIn <span class="iconify-inline" data-icon="logos:linkedin-icon"></span>| [linkedin.com/in/charles-langlois](https://linkedin.com/in/charles-langlois) |
 | Github <span class="iconify-inline" data-icon="codicon:github-inverted"></span>  | [github.com/DrPyser](https://github.com/DrPyser) |
@@ -19,28 +20,14 @@ Loves to cultivate a growing wealth of conceptual and practical knowledge, while
 
 ## Experience
 ### Software engineering &#x1F9D1;&#x200D;&#x1F4BB;
+2021- (current) __Business & Integration Arch Specialist__(Full-Time) [@ Accenture Song][accenture-song]  
+: Development and maintenance of domain-specific solutions on various internal and client-facing projects.
 
-2015: __Mobile Application Developer__(Internship) [@ PureCobalt][purecobalt]
-: Development of mobile application targeting iOS platform
-    - ActionScript 3 <span class="iconify-inline" data-icon="file-icons:actionscript"></span>/Flex mobile application development
-    - SQLite<span class="iconify-inline" data-icon="simple-icons:sqlite"></span> database integration, Salesforce <i class="devicon-salesforce-plain colored"></i> integration
-
-2016: __Web Developer/Webmaster__(Internship) [@ La Scena Musicale][lascena]
-: Maintaining and developing capabilities of WordPress<span class="iconify-inline" data-icon="fa-brands:wordpress"></span> website for a popular cultural magazine
-    - WordPress backend & frontend development
-    - Webmastering/website administration
-: Developing and operating tools for automating magazine publishing process
-    - Design & implementation of tool to generate specialized HTML targeting print design software(using Racket programming language)
+2020-2021 __Digital Software specialist__(Full-Time) [@ Accenture Song][accenture-song]  
+: Development and maintenance of domain-specific solutions on various internal and client-facing projects.
 
 
-2017-2019: __Back-End developer__(Full-Time) [@ Konversion][konversion]
-: Development of internal automation and data analytics platform in marketing ecosystem
-    - Back-end web application development in Python<i class="devicon-python-plain colored"></i>(Django framework<i class="devicon-django-plain"></i> API, relational storage backend)
-    - Paid search advertisement & SEO principles with Adwords/GoogleAds<span class="iconify-inline" data-icon="simple-icons:googleads"></span> & BingAds<span class="iconify-inline" data-icon="logos:bing"></span>
-    - DevOps(Container-based virtualization & deployment pipeline using Docker <i class="devicon-docker-plain colored"></i>)
-
-
-2019-2021: __Digital Software analyst__(Full-Time) [@ Accenture Song][accenture-song]
+2019-2020: __Digital Software analyst__(Full-Time) [@ Accenture Song][accenture-song]
 : Development and operation of internal marketing technology platform, automated reporting & analytics, domain-specific automation.
     - Back-end software development in Python<i class="devicon-python-plain colored">
     - Microservice architecture & integration patterns(12 factor application principles, event-driven integrations)
@@ -49,20 +36,36 @@ Loves to cultivate a growing wealth of conceptual and practical knowledge, while
     - Integration of DevOps practices(CI/CD, infrastructure as code/configuration management, container-based deployment infrastructure and workflow, SRE, ...)
     - Agile & Kanban project management
     - Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span> operation and exploitation(basics)
-		 
-2021- (current) __Digital Software specialist__(Full-Time) [@ Accenture Song][accenture-song]  
-: Development and maintenance of domain-specific solutions on various internal and client-facing projects.
+     
+2017-2019: __Back-End developer__(Full-Time) [@ Konversion][konversion]
+: Development of internal automation and data analytics platform in marketing ecosystem
+    - Back-end web application development in Python<i class="devicon-python-plain colored"></i>(Django framework<i class="devicon-django-plain"></i> API, relational storage backend)
+    - Paid search advertisement & SEO principles with Adwords/GoogleAds<span class="iconify-inline" data-icon="simple-icons:googleads"></span> & BingAds<span class="iconify-inline" data-icon="logos:bing"></span>
+    - DevOps(Container-based virtualization & deployment pipeline using Docker <i class="devicon-docker-plain colored"></i>)
+
+
+2016: __Web Developer/Webmaster__(Internship) [@ La Scena Musicale][lascena]
+: Maintaining and developing capabilities of WordPress<span class="iconify-inline" data-icon="fa-brands:wordpress"></span> website for a popular cultural magazine
+    - WordPress backend & frontend development
+    - Webmastering/website administration
+: Developing and operating tools for automating magazine publishing process
+    - Design & implementation of tool to generate specialized HTML targeting print design software(using Racket programming language)
+
+2015: __Mobile Application Developer__(Internship) [@ PureCobalt][purecobalt]
+: Development of mobile application targeting iOS platform
+    - ActionScript 3 <span class="iconify-inline" data-icon="file-icons:actionscript"></span>/Flex mobile application development
+    - SQLite<span class="iconify-inline" data-icon="simple-icons:sqlite"></span> database integration, Salesforce <i class="devicon-salesforce-plain colored"></i> integration
+
 
 [purecobalt]: https://www.purecobalt.com/ "Purecobalt homepage"
 [konversion]: https://www.linkedin.com/company/konversion/about/ "Konversion LinkedIn page"
 [accenture-song]: https://www.accenture.com/us-en/about/accenture-song-index "Accenture Song homepage"
 [lascena]: https://myscena.org/ "La Scena Musicale website"
 
-<div style="page-break-after: always;"></div>
 
 ## Education  &#x1f9d1;&#x200d;&#x1f393;
 
-2014-2017: [__Université De Montréal - Bachelor in Computer Science__][DIRO]
+2014-2022: [__Université De Montréal - Bachelor in Computer Science__][DIRO]
 : Core computer science curriculum & specializations, 
     - Computer security(cyphers, cryptography, networking security, penetration testing)
     - Theoretical computer science(computability, complexity)
@@ -75,7 +78,6 @@ Loves to cultivate a growing wealth of conceptual and practical knowledge, while
 
 [DIRO]: https://diro.umontreal.ca/english/home/ "DIRO homepage"
 
-<div style="page-break-after: always;"></div>
 
 ## Skillset &#x1F939; :wrench:
 
