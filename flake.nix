@@ -13,7 +13,7 @@
     in lib.eachSystem supportedSystems (system:
       let pkgs = import nixpkgs {
         inherit system;
-        overlays = [ devshell.overlay ];
+        overlays = [devshell.overlays.default];
       };
       rubyenv = pkgs.bundlerEnv {
           ruby = pkgs.ruby_3_1;
