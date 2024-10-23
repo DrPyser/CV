@@ -1,7 +1,8 @@
 title: Charles Langlois
 subtitle: Curriculum Vitae
+domain: cv.charleslanglois.dev
 url: https://cv.charleslanglois.dev
-remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
 markdown: kramdown
 plugins:
   - jekyll-remote-theme
