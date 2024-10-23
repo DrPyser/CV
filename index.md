@@ -6,7 +6,6 @@ subtitle: Curiculum Vitae
 
 
 |-:|:-|
--------
 | Location :anchor: | Gatineau, Quebec<span class="iconify-inline" data-icon="openmoji:quebec-flag"></span> |
 | Email :e-mail:   | <contact@charleslanglois.dev>              |
 | LinkedIn <span class="iconify-inline" data-icon="logos:linkedin-icon"></span>| [linkedin.com/in/charles-langlois](https://linkedin.com/in/charles-langlois) |
