@@ -11,7 +11,6 @@ subtitle: Curiculum Vitae
 | LinkedIn <span class="iconify-inline" data-icon="logos:linkedin-icon"></span>| [linkedin.com/in/charles-langlois](https://linkedin.com/in/charles-langlois) |
 | Github <span class="iconify-inline" data-icon="codicon:github-inverted"></span>  | [github.com/DrPyser](https://github.com/DrPyser) |
 | Website :globe_with_meridians: | [www.charleslanglois.dev](https://www.charleslanglois.dev) |
-| Phone(mobile) :iphone: | <a href="tel:+15148922258">+1 (514) 892-2258</a> |
 | Phone(home/VoIP) :telephone: | <a href="tel:+18194860249">+1 (819) 486-0249</a> |
 | Phone(SIP) :telephone: | <a href="sip:8194860249@charleslanglois.dev">sip:8194860249@charleslanglois.dev</a> |
 
