@@ -16,7 +16,7 @@ subtitle: Curiculum Vitae
 | Phone(SIP) :telephone: | <a href="sip:8194860249@charleslanglois.dev">sip:8194860249@charleslanglois.dev</a> |
 
 Experienced & passionate software developer based in Gatineau.  
-Hobby interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science, programming, technology :robot:, telephony :telephone:.  
+Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science, programming, technology :robot:, telephony :telephone:.
 Constantly working on cultivating a wealth of conceptual and practical knowledge and understanding, while seeking a Big Picture view of the developing intersection of science, technology and society.  
 
 ## Experience
@@ -28,7 +28,7 @@ Constantly working on cultivating a wealth of conceptual and practical knowledge
   - Open-source development & community support
   - Asterisk PBX<img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming(dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
-  - Development and maintenace of an SMS integration component
+  - Development and maintenance of an SMS integration component
   - Agile project management
   - Onboarding & mentoring
 
