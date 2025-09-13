@@ -14,27 +14,32 @@ subtitle: Curiculum Vitae
 | Phone(home/VoIP) :telephone: | <a href="tel:+18194860249">+1 (819) 486-0249</a> |
 | Phone(SIP) :telephone: | <a href="sip:8194860249@charleslanglois.dev">sip:8194860249@charleslanglois.dev</a> |
 
-Experienced & passionate software developer based in Gatineau.  
-Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science, programming, technology :robot:, telephony :telephone:.
-Constantly working on cultivating a wealth of conceptual and practical knowledge and understanding, while seeking a Big Picture view of the developing intersection of science, technology and society.  
+Software developer based in Gatineau.
+
+Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science & IT, programming, technology :robot:, telephony :telephone:, cinema :clapper:.
+
+Passionate, rigorous, curious and constantly working on cultivating a wealth of conceptual and practical knowledge and understanding in the domain of software, technology, and beyond.
 
 ## Experience
 ### Software engineering &#x1F9D1;&#x200D;&#x1F4BB;
 
-2022-2024 __Software Developer, Backend__(Full-Time) [@ Wazo Communication Inc.][wazo]
-: Development and maintenance of an IP PBX solution targeting service providers for small to medium businesses.
+2022-2025 __Senior Software Developer, Backend__(Full-Time) [@ Wazo Communication Inc.][wazo]
+: Development and maintenance of an IP PBX/UCaaS solution targeting service providers for small to medium businesses.
   - Development and maintenance of multiple python microservices integrated through REST APIs, RabbitMQ event bus
   - Open-source development & community support
-  - Asterisk PBX<img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming(dialplan, integration APIs), configuration, operation
+  - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming(dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
   - Development and maintenance of an SMS integration component
-  - Agile project management
+  - Agile project development
   - Onboarding & mentoring
+  - C application debugging using gdb
+  - technical analysis
+  - technical documentation
 
 2021-2022 __Business & Integration Arch Specialist__(Full-Time) [@ Accenture Song][accenture-song]
 : Development and maintenance of domain-specific solutions on various internal and client-facing projects.
 
-2020-2021 __Digital Software specialist__(Full-Time) [@ Accenture Song][accenture-song]  
+2020-2021 __Digital Software specialist__(Full-Time) [@ Accenture Song][accenture-song]
 : Development and maintenance of domain-specific solutions on various internal and client-facing projects.
 
 2019-2020: __Digital Software analyst__(Full-Time) [@ Accenture Song][accenture-song]
@@ -76,7 +81,7 @@ Constantly working on cultivating a wealth of conceptual and practical knowledge
 ## Education  &#x1f9d1;&#x200d;&#x1f393;
 
 2014-2022: [__Université De Montréal - Bachelor in Computer Science__][DIRO]
-: Core computer science curriculum & specializations, 
+: Core computer science curriculum & specializations,
     - Computer security(cyphers, cryptography, networking security, penetration testing)
     - Theoretical computer science(computability, complexity)
     - Introduction to Artificial Intelligence(classical and modern approaches)
@@ -84,7 +89,7 @@ Constantly working on cultivating a wealth of conceptual and practical knowledge
 : Extra-curricular credits
     - Musical programming in Python(school of music)
     - Logic 2(school of philosophy)
-    - Introduction to semantic, morphology & lexicology
+    - Linguistics: Introduction to semantic, morphology & lexicology
 
 [DIRO]: https://diro.umontreal.ca/english/home/ "DIRO homepage"
 
@@ -92,7 +97,7 @@ Constantly working on cultivating a wealth of conceptual and practical knowledge
 ## Skillset &#x1F939; :wrench:
 
 - Programming languages
-  - Python<span class="iconify-inline" data-icon="logos:python"></span>  {{ plusicon }}{{ plusicon }}{{ plusicon }}{{ plusicon }}(professional, 7 years)
+  - Python<span class="iconify-inline" data-icon="logos:python"></span>  {{ plusicon }}{{ plusicon }}{{ plusicon }}{{ plusicon }}(professional, 7+ years)
   - Lua<span class="iconify-inline" data-icon="cib:lua"></span>  {{ plusicon }}{{ plusicon }}
   - Haskell<span class="iconify-inline" data-icon="cib:haskell"></span>  {{ plusicon }}{{ plusicon }}
   - Lisp(Racket<span class="iconify-inline" data-icon="vscode-icons:file-type-racket"></span>, Clojure<span class="iconify-inline" data-icon="logos:clojure"></span>, Common Lisp<span class="iconify-inline" data-icon="file-icons:common-lisp"></span>, Scheme<span class="iconify-inline" data-icon="file-icons:scheme"></span>)  {{ plusicon }}{{ plusicon }}
@@ -110,29 +115,32 @@ Constantly working on cultivating a wealth of conceptual and practical knowledge
   - Networking
     - VLAN
     - openvpn
-    - tunneling: Layer 2 over GRE
+    - tunneling(gretap)
     - Wireguard
+    - Cisco Integrated Service Router configuration
+    - HP ProCurve switch configuration
   - Containerization/virtualization
     - Docker<i class="devicon-docker-plain colored"></i>(docker swarm, docker-compose)
-    - Proxmox
+    - Proxmox/KVM/QEMU
     - Openstack<i class="devicon-openstack-original">(usage)
-  - Configuration Management(Ansible <i class="devicon-ansible-plain"></i>, SaltStack<span class="iconify-inline" data-icon="cib:saltstack"></span>)
-  - Logging infrastructure(syslog, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit)
-  - Monitoring infrastructure(Prometheus <i class="devicon-prometheus-original"></i>)
-  - CI/CD(Jenkins <i class="devicon-jenkins-plain"></i>, CircleCI <i class="devicon-circleci-plain"></i>, Zuul <i class="devicon-zuul-plain"/>)
-- Cloud computing(concepts & principles,Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span>)
+  - Configuration Management: Ansible <i class="devicon-ansible-plain"></i>, SaltStack<span class="iconify-inline" data-icon="cib:saltstack"></span>
+  - Logging infrastructure: syslog, systemd-journald, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit:
+  - Monitoring infrastructure: Prometheus <i class="devicon-prometheus-original"></i>
+  - CI/CD: Jenkins <i class="devicon-jenkins-plain"></i>, CircleCI <i class="devicon-circleci-plain"></i>, Zuul <i class="devicon-zuul-plain"/>
+- Cloud computing: concepts & principles,Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span>
 - Storage technology
-  - Relational/SQL(PostgreSQL<span class="iconify-inline" data-icon="logos:postgresql"></span>, SQLite<span class="iconify-inline" data-icon="simple-icons:sqlite"></span>, MySQL<span class="iconify-inline" data-icon="logos:mysql"></span>)
-  - Document-oriented(MongoDB<span class="iconify-inline" data-icon="simple-icons:mongodb"></span>, PostgreSQL+JSON)
-  - Graph-oriented(Neo4J<span class="iconify-inline" data-icon="cib:neo4j"></span>/Cypher)
-  - Queues/log-oriented(Kafka<i class="devicon-apachekafka-original">, RabbitMQ<span class="iconify-inline" data-icon="logos:rabbitmq-icon"></span>)
-  - In-Memory/caching(Redis<span class="iconify-inline" data-icon="logos:redis"></span>)
-- Shell programming/CLI tooling(bash <i class="devicon-bash-plain"></i>, make, common unix commands, ...)
+  - Relational/SQL: PostgreSQL<span class="iconify-inline" data-icon="logos:postgresql"></span>, SQLite<span class="iconify-inline" data-icon="simple-icons:sqlite"></span>, MySQL<span class="iconify-inline" data-icon="logos:mysql"></span>
+  - Document-oriented: MongoDB<span class="iconify-inline" data-icon="simple-icons:mongodb"></span>, PostgreSQL+JSON
+  - Graph-oriented: Neo4J<span class="iconify-inline" data-icon="cib:neo4j"></span>/Cypher
+  - Queues/log-oriented: Kafka<i class="devicon-apachekafka-original">, RabbitMQ<span class="iconify-inline" data-icon="logos:rabbitmq-icon"></span>
+  - In-Memory/caching: Redis<span class="iconify-inline" data-icon="logos:redis"></span>
+- Shell programming/CLI tooling: bash <i class="devicon-bash-plain"></i>, make, POSIX/unix, fish
 - Operating Systems
-  - Linux<span class="iconify-inline" data-icon="cib:linux"></span>(Arch Linux<span class="iconify-inline" data-icon="cib:arch-linux"></span>, Debian<span class="iconify-inline" data-icon="cib:debian"></span>, Ubuntu<span class="iconify-inline" data-icon="fa6-brands:ubuntu"></span>, Fedora<span class="iconify-inline" data-icon="logos:fedora"></span>, NixOS<span class="iconify-inline" data-icon="simple-icons:nixos"></span>, Alpine<span class="iconify-inline" data-icon="simple-icons:alpinelinux"></span>, OpenWRT<span class="iconify-inline" data-icon="simple-icons:openwrt"></span>)
-  - Windows<span class="iconify-inline" data-icon="mdi:microsoft-windows-classic"></span>(2000, XP, 7, 8, 10, WSL)
+  - Linux<span class="iconify-inline" data-icon="cib:linux"></span>: Arch Linux<span class="iconify-inline" data-icon="cib:arch-linux"></span>, Debian<span class="iconify-inline" data-icon="cib:debian"></span>, Ubuntu<span class="iconify-inline" data-icon="fa6-brands:ubuntu"></span>, Fedora<span class="iconify-inline" data-icon="logos:fedora"></span>, NixOS<span class="iconify-inline" data-icon="simple-icons:nixos"></span>, Alpine<span class="iconify-inline" data-icon="simple-icons:alpinelinux"></span>, OpenWRT<span class="iconify-inline" data-icon="simple-icons:openwrt"></span>
+  - Windows<span class="iconify-inline" data-icon="logos:microsoft-windows"></span>: 2000, XP, 7, 8, 10, WSL
+  - freeBSD<span class="iconify-inline" data-icon="logos:freebsd"></span>: OPNSense<span class="iconify-inline" data-icon="simple-icons:opnsense"></span>, TrueNAS<span class="iconify-inline" data-icon="simple-icons:truenas"></span>
 
 ## Natural languages <span class="iconify-inline" data-icon="ion:language"></span>
+
 - French (native)
 - English (fluent)
-
