@@ -14,14 +14,12 @@ subtitle: Curriculum Vitae
 | Phone (home/VoIP) :telephone: | <a href="tel:+18194860249">+1 (819) 486-0249</a> |
 | Phone (SIP) :telephone: | <a href="sip:8194860249@charleslanglois.dev">sip:8194860249@charleslanglois.dev</a> |
 
-Software developer based in Gatineau.
+I am a software developer based in Gatineau, with 8+ years of real experience building distributed systems, VoIP/telecom solutions, and automation platforms.
 
-Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science & IT, programming, technology :robot:, telephony :telephone:, cinema :clapper:.
+My hobbies & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science & IT, programming, technology :robot:, telephony :telephone:, cinema :clapper:.
 
-Passionate, experienced, rigorous, curious and constantly working on cultivating a wealth of conceptual and practical knowledge, and understanding in the domain of software, technology, and beyond.
-
-## Professional Summary
-
+I'm always passionate, curious & rigorous in my work, and find satisfaction in building deep technical expertise in whatever specific domain I find myself working in.
+I'm constantly working on cultivating a wealth of conceptual and practical knowledge, and understanding in the domain of software, technology, and beyond.
 
 ## Experience
 ### Software engineering &#x1F9D1;&#x200D;&#x1F4BB;
