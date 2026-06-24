@@ -180,6 +180,15 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
   - Linux<span class="iconify-inline" data-icon="cib:linux"></span>: Arch Linux<span class="iconify-inline" data-icon="cib:arch-linux"></span>, Debian<span class="iconify-inline" data-icon="cib:debian"></span>, Ubuntu<span class="iconify-inline" data-icon="fa6-brands:ubuntu"></span>, Fedora<span class="iconify-inline" data-icon="logos:fedora"></span>, NixOS<span class="iconify-inline" data-icon="simple-icons:nixos"></span>, Alpine<span class="iconify-inline" data-icon="simple-icons:alpinelinux"></span>, OpenWRT<span class="iconify-inline" data-icon="simple-icons:openwrt"></span>
   - Windows<span class="iconify-inline" data-icon="logos:microsoft-windows"></span>: 2000, XP, 7, 8, 10, WSL
   - freeBSD<span class="iconify-inline" data-icon="logos:freebsd"></span>: OPNSense<span class="iconify-inline" data-icon="simple-icons:opnsense"></span>, TrueNAS<span class="iconify-inline" data-icon="simple-icons:truenas"></span>
+- Software testing
+  - property-based testing with [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) Python library
+  - snapshot-based testing
+  - Test-Driven Development
+  - load testing using [Locust](https://locust.io/) framework
+  - test runners: pytest, Python `unittest` standard library
+  - mock-based testing using `unittest.mock`
+  - integration testing using docker/docker-compose, [mockserver](https://www.mock-server.com/)
+  - acceptance / functional testing using behavior-driven development and [Behave](https://behave.readthedocs.io/en/stable/) framework
 - AI coding agents
   - harnesses & IDE
     - claude code
