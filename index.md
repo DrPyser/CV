@@ -101,6 +101,38 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
 
 [DIRO]: https://diro.umontreal.ca/english/home/ "DIRO homepage"
 
+## Open source & Personal projects
+
+2026: [theatre.py](https://github.com/DrPyser/theater.py)
+: Actor-model concurrency framework in Python, inspired by Erlang/BEAM and UNIX
+
+2026: [charlesnetfs](https://github.com/DrPyser/charlesnetfs)
+: Experiment in using 9P virtual file system protocol for network management
+
+- Implementing a 9P file server in Rust to provide a network-transparent interface to a fleet of servers in homelab network context
+- Test-driven development
+- Bug report led to improvement of [ninep](https://docs.rs/ninep/latest/ninep/index.html) upstream library crate
+
+2026: Contributions to [strux.sh](https://strux.sh/)
+: Open-Source framework for fast & easy development, provisioning and management of linux-based Kiosk hardware devices
+
+- Contributions to typescript/Bun/Go codebase
+- BATS-based integration testing framework
+
+
+2025-2026: Contributions to [Xalgorithm DWDS](https://www.xalgorithms.org/)
+: Rule-as-data & Internet of Rules FOSS project
+: Development of backend component in Rust: [Rule Taker](https://gitlab.com/xalgorithms-alliance/rule-networking-software/prod-impl/-/blob/master/README.md)
+  - Rust programming & maintenance
+  - Implementation of text parsers in Rust
+
+2025-2026: [Exfetch AUR package](https://aur.archlinux.org/packages/exfetch)
+: Author & Maintainer of an [Archlinux User Repository (AUR)](https://aur.archlinux.org/) package for the [Exfetch](https://codeberg.org/Izder456/exfetch) shell extensible fetching program
+
+2023-2026: [www.charleslanglois.dev](https://github.com/DrPyser/www.charleslanglois.dev/)
+: Personal blog website
+: Built with the [Hugo](https://gohugo.io/) static site generator
+
 
 ## Skillset &#x1F939; :wrench:
 
