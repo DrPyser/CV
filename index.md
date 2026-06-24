@@ -1,6 +1,6 @@
 ---
 title: Charles Langlois
-subtitle: Curiculum Vitae
+subtitle: Curriculum Vitae
 ---
 {% capture plusicon %}<span class="iconify-inline" data-icon="akar-icons:plus"></span>{% endcapture %}
 
@@ -50,7 +50,7 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
     - Back-end software development in Python<i class="devicon-python-plain colored">
     - Microservice architecture & integration patterns(12 factor application principles, event-driven integrations)
 : Migrating/developing and administrating linux servers infrastructure & application deployment environments
-    - multi-node deployment infrastructure using Docker Swarm
+    - Multi-node deployment infrastructure using Docker Swarm
     - Integration of DevOps practices(CI/CD, infrastructure as code/configuration management, container-based deployment infrastructure and workflow, SRE, ...)
     - Agile & Kanban project management
     - Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span> operation and exploitation(basics)
@@ -80,19 +80,20 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
 [accenture-song]: https://www.accenture.com/us-en/about/accenture-song-index "Accenture Song homepage"
 [lascena]: https://myscena.org/ "La Scena Musicale website"
 [wazo]: https://wazo.io "Wazo homepage"
+[wazo-platform]: https://wazo-platform.org/ "wazo-platform community project website"
 
 ## Education  &#x1f9d1;&#x200d;&#x1f393;
 
 2014-2022: [__Université De Montréal - Bachelor in Computer Science__][DIRO]
 : Core computer science curriculum & specializations,
-    - Computer security(cyphers, cryptography, networking security, penetration testing)
+    - Computer security(ciphers, cryptography, networking security, penetration testing)
     - Theoretical computer science(computability, complexity)
     - Introduction to Artificial Intelligence(classical and modern approaches)
     - Programming languages and compilation: design and implementation of compilers(Scheme, x86_64 ASM)
 : Extra-curricular credits
     - Musical programming in Python(school of music)
     - Logic 2(school of philosophy)
-    - Linguistics: Introduction to semantic, morphology & lexicology
+    - Linguistics: Introduction to semantics, morphology & lexicology
 
 [DIRO]: https://diro.umontreal.ca/english/home/ "DIRO homepage"
 
@@ -127,7 +128,7 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
     - Proxmox/KVM/QEMU
     - Openstack<i class="devicon-openstack-original">(usage)
   - Configuration Management: Ansible <i class="devicon-ansible-plain"></i>, SaltStack<span class="iconify-inline" data-icon="cib:saltstack"></span>
-  - Logging infrastructure: syslog, systemd-journald, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit:
+  - Logging infrastructure: syslog, systemd-journald, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit
   - Monitoring infrastructure: Prometheus <i class="devicon-prometheus-original"></i>
   - CI/CD: Jenkins <i class="devicon-jenkins-plain"></i>, CircleCI <i class="devicon-circleci-plain"></i>, Zuul <i class="devicon-zuul-plain"/>
 - Cloud computing: concepts & principles,Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span>
