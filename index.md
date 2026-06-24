@@ -85,6 +85,7 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
 ## Education  &#x1f9d1;&#x200d;&#x1f393;
 
 2014-2022: [__Université De Montréal - Bachelor in Computer Science__][DIRO]
+(include part-time work / study)
 : Core computer science curriculum & specializations,
     - Computer security (ciphers, cryptography, networking security, penetration testing)
     - Theoretical computer science (computability, complexity)
