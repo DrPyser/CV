@@ -18,16 +18,16 @@ Software developer based in Gatineau.
 
 Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :herb:, computer science & IT, programming, technology :robot:, telephony :telephone:, cinema :clapper:.
 
-Passionate, rigorous, curious and constantly working on cultivating a wealth of conceptual and practical knowledge and understanding in the domain of software, technology, and beyond.
+Passionate, experienced, rigorous, curious and constantly working on cultivating a wealth of conceptual and practical knowledge, and understanding in the domain of software, technology, and beyond.
 
 ## Experience
 ### Software engineering &#x1F9D1;&#x200D;&#x1F4BB;
 
-2022-2025 __Senior Software Developer, Backend__(Full-Time) [@ Wazo Communication Inc.][wazo]
+2022-2026 __Senior Software Developer, Backend__(Full-Time) [@ Wazo Communication Inc.][wazo]
 : Development and maintenance of an IP PBX/UCaaS solution targeting service providers for small to medium businesses.
-  - Development and maintenance of multiple python microservices integrated through REST APIs, RabbitMQ event bus
-  - design & implementation of AI-enabled transcription infrastructure
-  - Open-source development & community support
+  - Development and maintenance of multiple python microservices integrated through REST APIs & RabbitMQ event bus
+  - Design & implementation of AI-enabled transcription infrastructure
+  - Open-source development & community support ([wazo-platform][wazo-platform])
   - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming(dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
   - Development & maintenance of an SMS integration component
@@ -35,9 +35,10 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
   - Lean development process
   - Onboarding & mentoring of colleagues
   - C application debugging using gdb
-  - technical analysis
-  - technical documentation
-  - usage of AI coding agents (claude, cursor)
+  - Technical analysis
+  - Technical documentation
+  - Usage of AI coding agents (claude, cursor)
+  - Development and maintenance of AI agent skills
 
 2021-2022 __Business & Integration Arch Specialist__(Full-Time) [@ Accenture Song][accenture-song]
 : Development and maintenance of domain-specific solutions on various internal and client-facing projects.
@@ -131,7 +132,7 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
   - Logging infrastructure: syslog, systemd-journald, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit
   - Monitoring infrastructure: Prometheus <i class="devicon-prometheus-original"></i>
   - CI/CD: Jenkins <i class="devicon-jenkins-plain"></i>, CircleCI <i class="devicon-circleci-plain"></i>, Zuul <i class="devicon-zuul-plain"/>
-- Cloud computing: concepts & principles,Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span>
+- Cloud computing: concepts & principles, AWS, Google Cloud Platform<span class="iconify-inline" data-icon="logos:google-cloud"></span>
 - Storage technology
   - Relational/SQL: PostgreSQL<span class="iconify-inline" data-icon="logos:postgresql"></span>, SQLite<span class="iconify-inline" data-icon="simple-icons:sqlite"></span>, MySQL<span class="iconify-inline" data-icon="logos:mysql"></span>
   - Document-oriented: MongoDB<span class="iconify-inline" data-icon="simple-icons:mongodb"></span>, PostgreSQL+JSON
@@ -143,6 +144,14 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
   - Linux<span class="iconify-inline" data-icon="cib:linux"></span>: Arch Linux<span class="iconify-inline" data-icon="cib:arch-linux"></span>, Debian<span class="iconify-inline" data-icon="cib:debian"></span>, Ubuntu<span class="iconify-inline" data-icon="fa6-brands:ubuntu"></span>, Fedora<span class="iconify-inline" data-icon="logos:fedora"></span>, NixOS<span class="iconify-inline" data-icon="simple-icons:nixos"></span>, Alpine<span class="iconify-inline" data-icon="simple-icons:alpinelinux"></span>, OpenWRT<span class="iconify-inline" data-icon="simple-icons:openwrt"></span>
   - Windows<span class="iconify-inline" data-icon="logos:microsoft-windows"></span>: 2000, XP, 7, 8, 10, WSL
   - freeBSD<span class="iconify-inline" data-icon="logos:freebsd"></span>: OPNSense<span class="iconify-inline" data-icon="simple-icons:opnsense"></span>, TrueNAS<span class="iconify-inline" data-icon="simple-icons:truenas"></span>
+- AI coding agents
+  - harnesses & IDE
+    - claude code
+    - cursor
+    - opencode
+  - Agent skills development
+  - On-device local models using ollama
+- AI/LLM models (Claude haiku/sonnet/Opus, Mistral Voxtral Mini, GLM, Opencode Big Pickle)
 
 ## Natural languages <span class="iconify-inline" data-icon="ion:language"></span>
 
