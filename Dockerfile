@@ -1,4 +1,4 @@
-FROM ruby:3.1
+FROM ruby:3.3
 
 RUN bundle config --global frozen 1
 
@@ -13,4 +13,4 @@ VOLUME /usr/src/app
 
 EXPOSE 4000
 
-CMD ["jekyll", "serve"]
+CMD ["jekyll", "serve", "--host=0.0.0.0"]

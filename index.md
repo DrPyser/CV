@@ -26,15 +26,18 @@ Passionate, rigorous, curious and constantly working on cultivating a wealth of 
 2022-2025 __Senior Software Developer, Backend__(Full-Time) [@ Wazo Communication Inc.][wazo]
 : Development and maintenance of an IP PBX/UCaaS solution targeting service providers for small to medium businesses.
   - Development and maintenance of multiple python microservices integrated through REST APIs, RabbitMQ event bus
+  - design & implementation of AI-enabled transcription infrastructure
   - Open-source development & community support
   - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming(dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
-  - Development and maintenance of an SMS integration component
+  - Development & maintenance of an SMS integration component
   - Agile project development
-  - Onboarding & mentoring
+  - Lean development process
+  - Onboarding & mentoring of colleagues
   - C application debugging using gdb
   - technical analysis
   - technical documentation
+  - usage of AI coding agents (claude, cursor)
 
 2021-2022 __Business & Integration Arch Specialist__(Full-Time) [@ Accenture Song][accenture-song]
 : Development and maintenance of domain-specific solutions on various internal and client-facing projects.
