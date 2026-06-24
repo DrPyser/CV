@@ -20,15 +20,19 @@ Hobby & interests include music :musical_note:, cooking &#x1F373; , gardening :h
 
 Passionate, experienced, rigorous, curious and constantly working on cultivating a wealth of conceptual and practical knowledge, and understanding in the domain of software, technology, and beyond.
 
+## Professional Summary
+
+
 ## Experience
 ### Software engineering &#x1F9D1;&#x200D;&#x1F4BB;
 
 2022-2026 __Senior Software Developer, Backend__ (Full-Time) [@ Wazo Communication Inc.][wazo]
 : Development and maintenance of an IP PBX/UCaaS solution targeting service providers for small to medium businesses.
   - Development and maintenance of multiple python microservices integrated through REST APIs & RabbitMQ event bus
-  - Design & implementation of LLM-enabled automatic voicemail transcription infrastructure
+  - Configuration, programming and operation of Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> based-systems
+  - Load testing & performance optimization
+  - E2E Design & implementation of LLM-enabled automatic voicemail transcription pipeline
   - Open-source development & community support ([wazo-platform][wazo-platform-github])
-  - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming (dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
   - Development & maintenance of an SMS messaging integration component
   - Project management disciplines: Agile, Lean
@@ -36,13 +40,12 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
   - C application debugging using gdb (crash / coredump analysis, deadlock analysis)
   - Technical documentation ([wazo-platform.org][wazo-platform])
   - Usage of AI coding agents (claude & cursor, agent skill development)
-  - Load testing & performance optimization of python microservices
 
 2021-2022 __Business & Integration Arch Specialist__ (Full-Time) [@ Accenture Song][accenture-song]
-: Development and maintenance of domain-specific solutions on various internal and client-facing projects.
+: Development and maintenance of domain-specific solutions on various internal projects.
 
 2020-2021 __Digital Software specialist__ (Full-Time) [@ Accenture Song][accenture-song]
-: Development and maintenance of domain-specific solutions on various internal and client-facing projects.
+: Development and maintenance of domain-specific solutions on various internal projects.
 
 2019-2020: __Digital Software analyst__ (Full-Time) [@ Accenture Song][accenture-song]
 : Development and operation of internal marketing technology platform, automated reporting & analytics, domain-specific automation.
@@ -103,31 +106,32 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
 
 - Programming languages
   - Python<span class="iconify-inline" data-icon="logos:python"></span>  {{ plusicon }}{{ plusicon }}{{ plusicon }}{{ plusicon }}(professional, 8+ years)
-  - Lua<span class="iconify-inline" data-icon="cib:lua"></span>  {{ plusicon }}
   - Haskell<span class="iconify-inline" data-icon="cib:haskell"></span>  {{ plusicon }}{{ plusicon }}
   - Lisp (Racket<span class="iconify-inline" data-icon="vscode-icons:file-type-racket"></span>, Clojure<span class="iconify-inline" data-icon="logos:clojure"></span>, Common Lisp<span class="iconify-inline" data-icon="file-icons:common-lisp"></span>, Scheme<span class="iconify-inline" data-icon="file-icons:scheme"></span>)  {{ plusicon }}{{ plusicon }}
-  - Javascript <i class="devicon-javascript-plain colored"></i>  {{ plusicon }}
   - Rust<span class="iconify-inline" data-icon="fa-brands:rust"></span> {{ plusicon }}
+  - Lua<span class="iconify-inline" data-icon="cib:lua"></span>  {{ plusicon }}
+  - Javascript <i class="devicon-javascript-plain colored"></i>  {{ plusicon }}
   - C  <span class="iconify-inline" data-icon="cib:c"></span>  {{ plusicon }}
-  - x86_64 ASM  {{ plusicon }}
 - Web programming
   - protocols: HTTP, websocket, webhooks
-  - API styles (XMLRPC/SOAP<span class="iconify-inline" data-icon="mdi:xml"></span>, JSONRPC<span class="iconify-inline" data-icon="codicon:json"></span>, REST, GraphQL <i class="devicon-graphql-plain colored"></i>)
+  - API styles (XMLRPC/SOAP<span class="iconify-inline" data-icon="mdi:xml"></span>, JSONRPC<span class="iconify-inline" data-icon="codicon:json"></span>, REST, GraphQL <i class="devicon-graphql-plain colored"></i>), HTTP asynchronous polling
 - VoIP & telephony
   - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico">(configuration, `pbx_config` dialplan, `pbx_lua` dialplan, AGI/AMI/ARI)
-  - Protocols: SIP, analog
+  - Protocols: SIP, analog, IAX2
 - DevOps & infrastructure
   - Networking
     - VLAN
-    - openvpn
+    - VPN: openvpn, wireguard
     - tunneling (gretap)
-    - Wireguard
     - Cisco Integrated Service Router configuration
     - HP ProCurve switch configuration
+    - consumer routers: OpenWRT & Tomato (installation, configuration, management)
   - Containerization/virtualization
     - Docker<i class="devicon-docker-plain colored"></i> (docker swarm, docker-compose)
     - Proxmox/KVM/QEMU
     - Openstack<i class="devicon-openstack-original"></i> (usage)
+    - LXC
+    - k3s
   - Configuration Management: Ansible <i class="devicon-ansible-plain"></i>, SaltStack<span class="iconify-inline" data-icon="cib:saltstack"></span>
   - Logging infrastructure: syslog, systemd-journald, fluentd<span class="iconify-inline" data-icon="simple-icons:fluentd"></span>, fluent-bit
   - Monitoring infrastructure: Prometheus <i class="devicon-prometheus-original"></i>
