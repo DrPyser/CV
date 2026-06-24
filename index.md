@@ -26,19 +26,17 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
 2022-2026 __Senior Software Developer, Backend__ (Full-Time) [@ Wazo Communication Inc.][wazo]
 : Development and maintenance of an IP PBX/UCaaS solution targeting service providers for small to medium businesses.
   - Development and maintenance of multiple python microservices integrated through REST APIs & RabbitMQ event bus
-  - Design & implementation of AI-enabled transcription infrastructure
-  - Open-source development & community support ([wazo-platform][wazo-platform])
+  - Design & implementation of LLM-enabled automatic voicemail transcription infrastructure
+  - Open-source development & community support ([wazo-platform][wazo-platform-github])
   - Asterisk PBX <img src="https://www.asterisk.org/wp-content/uploads/favicon.ico"> programming (dialplan, integration APIs), configuration, operation
   - SIP-based VoIP & telephony
-  - Development & maintenance of an SMS integration component
-  - Agile project development
-  - Lean development process
+  - Development & maintenance of an SMS messaging integration component
+  - Project management disciplines: Agile, Lean
   - Onboarding & mentoring of colleagues
-  - C application debugging using gdb
-  - Technical analysis
-  - Technical documentation
-  - Usage of AI coding agents (claude, cursor)
-  - Development and maintenance of AI agent skills
+  - C application debugging using gdb (crash / coredump analysis, deadlock analysis)
+  - Technical documentation ([wazo-platform.org][wazo-platform])
+  - Usage of AI coding agents (claude & cursor, agent skill development)
+  - Load testing & performance optimization of python microservices
 
 2021-2022 __Business & Integration Arch Specialist__ (Full-Time) [@ Accenture Song][accenture-song]
 : Development and maintenance of domain-specific solutions on various internal and client-facing projects.
@@ -81,7 +79,8 @@ Passionate, experienced, rigorous, curious and constantly working on cultivating
 [accenture-song]: https://www.accenture.com/us-en/about/accenture-song-index "Accenture Song homepage"
 [lascena]: https://myscena.org/ "La Scena Musicale website"
 [wazo]: https://wazo.io "Wazo homepage"
-[wazo-platform]: https://wazo-platform.org/ "wazo-platform community project website"
+[wazo-platform]: https://wazo-platform.org/ "wazo-platform project community website"
+[wazo-platform-github]: https://github.com/wazo-platform "wazo-platform open source project github organization"
 
 ## Education  &#x1f9d1;&#x200d;&#x1f393;
 
